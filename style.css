@@ -1,0 +1,102 @@
+#gameEven{
+
+    -fx-background-color: #eeeeee;
+}
+#gameOdd {
+
+    -fx-background-color: #dddddd;
+}
+#orderDone {
+    -fx-text-fill: #002f10;
+}
+#grid {
+   -fx-hgap: 10;
+    -fx-alignment: center;
+    -fx-padding: 20 0 0 0;
+}
+.mainContainer {
+    -fx-background-color: grey;
+}
+.mainContent {
+
+}
+.gameTable{
+    -fx-spacing: 70;
+    -fx-padding: 5;
+    -fx-alignment: center;
+}
+#price{
+
+    -fx-spacing: 5px;
+}
+#amountText{
+    -fx-spacing: 5px;
+}
+#amountCombo {
+    -fx-background-color:
+            rgba(0,0,0,0.08),
+            linear-gradient(#9a9a9a, #909090),
+            linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 12px;
+    -fx-max-height: 20px;
+    -fx-max-width: 110px;
+}
+#teams {
+   -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+#addToCart {
+    -fx-background-color:
+            rgba(0,0,0,0.08),
+            linear-gradient(#9a9a9a, #909090),
+            linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 20 3 20;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+    -fx-max-height: 15px;
+}
+#addToCart:hover {
+    -fx-background-color: rgba(5, 40, 9, 0.4);
+}
+
+.clearCart {
+    -fx-background-color:
+            rgba(0,0,0,0.08),
+            linear-gradient(#9a9a9a, #909090),
+            linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 20 3 20;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+}
+.clearCart:hover {
+    -fx-background-color:
+            rgba(40, 5, 9, 0.4);
+}
+.sendOrder {
+    -fx-background-color:
+            rgba(0,0,0,0.08),
+            linear-gradient(#9a9a9a, #909090),
+            linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 20 3 20;
+    -fx-text-fill: #242d35;
+    -fx-font-size: 14px;
+}
+.sendOrder:hover {
+    -fx-background-color: rgba(5, 40, 9, 0.4);
+}
+#title {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+#orderStatus {
+    -fx-font-size: 14px;
+}
